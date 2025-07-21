@@ -1,0 +1,37 @@
+/* Luxi Mono */
+
+/* regular */
+@font-face {
+    font-family: "Luxi Mono";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://madmaxchow.github.io/openfonts/LuxiMono-woff2/LuxiMono-Regular.woff2");
+    font-display: swap;
+}
+
+/* italic */
+@font-face {
+    font-family: "Luxi Mono";
+    font-weight: normal;
+    font-style: italic;
+    src: url("https://madmaxchow.github.io/openfonts/LuxiMono-woff2/LuxiMono-Italic-Regular.woff2");
+    font-display: swap;
+}
+
+/* bold */
+@font-face {
+    font-family: "Luxi Mono";
+    font-weight: bold;
+    font-style: normal;
+    src: url("https://madmaxchow.github.io/openfonts/LuxiMono-woff2/LuxiMono-Bold.woff2");
+    font-display: swap;
+}
+
+/* bold italic */
+@font-face {
+    font-family: "Luxi Mono";
+    font-weight: bold;
+    font-style: normal;
+    src: url("https://madmaxchow.github.io/openfonts/LuxiMono-woff2/LuxiMono-Italic-Bold.woff2");
+    font-display: swap;
+}
