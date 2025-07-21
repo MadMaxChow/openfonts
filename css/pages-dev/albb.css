@@ -1,0 +1,19 @@
+/* DingTalk Sans */
+@font-face {
+    font-family: "DingTalk Sans";
+    font-weight: normal;
+    font-style: normal;
+    src: local("DingTalk Sans"),
+        url("https://openfonts.pages.dev/DingTalk-woff2/DingTalk-Sans.woff2");
+    font-display: swap;
+}
+
+/* DingTalk JinBuTi */
+@font-face {
+    font-family: "DingTalk JinBuTi";
+    font-weight: normal;
+    font-style: normal;
+    src: local("DingTalk Sans"),
+        url("https://openfonts.pages.dev/DingTalk-woff2/DingTalk-JinBuTi.woff2");
+    font-display: swap;
+}
