@@ -1,0 +1,19 @@
+/* Altinn-DIN - pages.dev */
+
+/* regular */
+@font-face {
+    font-family: "Altinn-DIN";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://openfonts.pages.dev/Altinn-DIN-woff2/Altinn-DIN-Regular.woff2");
+    font-display: swap;
+}
+
+/* bold */
+@font-face {
+    font-family: "Altinn-DIN";
+    font-weight: bold;
+    font-style: normal;
+    src: url("https://openfonts.pages.dev/Altinn-DIN-woff2/Altinn-DIN-Bold.woff2");
+    font-display: swap;
+}
