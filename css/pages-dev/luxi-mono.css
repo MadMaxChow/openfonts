@@ -30,7 +30,7 @@
 /* bold italic */
 @font-face {
     font-family: "Luxi Mono";
-    font-style: normal;
+    font-style: italic;
     font-weight: 700;
     src: url("https://openfonts.pages.dev/LuxiMono-woff2/LuxiMono-Italic-Bold.woff2");
     font-display: swap;
