@@ -1,8 +1,8 @@
 /* DingTalk Sans - github.io */
 @font-face {
     font-family: "DingTalk Sans";
-    font-weight: normal;
     font-style: normal;
+    font-weight: 400;
     src: url("https://madmaxchow.github.io/openfonts/DingTalk-woff2/DingTalk-Sans.woff2");
     font-display: swap;
 }
@@ -10,8 +10,8 @@
 /* DingTalk JinBuTi - github.io*/
 @font-face {
     font-family: "DingTalk JinBuTi";
-    font-weight: normal;
     font-style: normal;
+    font-weight: 400;
     src: url("https://madmaxchow.github.io/openfonts/DingTalk-woff2/DingTalk-JinBuTi.woff2");
     font-display: swap;
 }
