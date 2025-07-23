@@ -1,5 +1,4 @@
 /* Luxi Mono - pages.dev */
-
 /* regular */
 @font-face {
     font-family: "Luxi Mono";
@@ -8,7 +7,6 @@
     src: url("https://openfonts.pages.dev/LuxiMono-woff2/LuxiMono-Regular.woff2");
     font-display: swap;
 }
-
 /* italic */
 @font-face {
     font-family: "Luxi Mono";
@@ -17,7 +15,6 @@
     src: url("https://openfonts.pages.dev/LuxiMono-woff2/LuxiMono-Italic-Regular.woff2");
     font-display: swap;
 }
-
 /* bold */
 @font-face {
     font-family: "Luxi Mono";
@@ -26,7 +23,6 @@
     src: url("https://openfonts.pages.dev/LuxiMono-woff2/LuxiMono-Bold.woff2");
     font-display: swap;
 }
-
 /* bold italic */
 @font-face {
     font-family: "Luxi Mono";

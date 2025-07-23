@@ -1,5 +1,4 @@
 /* Altinn-DIN - github.io */
-
 /* regular */
 @font-face {
     font-family: "Altinn-DIN";
@@ -8,7 +7,6 @@
     src: url("https://madmaxchow.github.io/openfonts/Altinn-DIN-woff2/Altinn-DIN-Regular.woff2");
     font-display: swap;
 }
-
 /* bold */
 @font-face {
     font-family: "Altinn-DIN";
