@@ -81,6 +81,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/github-io\/noto-sans.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/github-io\/noto-sans-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/github-io\/noto-serif-sc.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -93,6 +105,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/github-io\/noto-serif.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/github-io\/noto-serif-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/github-io\/roboto-condensed.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -102,18 +126,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/github-io\/roboto-condensed-min.css",
-      "oF" : 1,
-      "pg" : 0
-    },
-    "\/github-io\/roboto-slab.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/github-io\/roboto-slab-min.css",
       "oF" : 1,
       "pg" : 0
     },
@@ -219,6 +231,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/pages-dev\/noto-sans.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/pages-dev\/noto-sans-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/pages-dev\/noto-serif-sc.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -231,6 +255,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/pages-dev\/noto-serif.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/pages-dev\/noto-serif-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/pages-dev\/roboto-condensed.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -240,18 +276,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/pages-dev\/roboto-condensed-min.css",
-      "oF" : 1,
-      "pg" : 0
-    },
-    "\/pages-dev\/roboto-slab.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/pages-dev\/roboto-slab-min.css",
       "oF" : 1,
       "pg" : 0
     },
