@@ -33,7 +33,7 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/github-io\/courier-prime.css" : {
+    "\/github-io\/go-mono.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -41,8 +41,8 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/github-io\/courier-prime-min.css",
-      "oF" : 0,
+      "oAP" : "\/github-io\/go-mono-min.css",
+      "oF" : 1,
       "pg" : 0
     },
     "\/github-io\/luxi-mono.css" : {
@@ -52,7 +52,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/github-io\/luxi-mono-min.css",
       "oF" : 0,
       "pg" : 0
@@ -183,7 +183,7 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/pages-dev\/courier-prime.css" : {
+    "\/pages-dev\/go-mono.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -191,8 +191,8 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/pages-dev\/courier-prime-min.css",
-      "oF" : 0,
+      "oAP" : "\/pages-dev\/go-mono-min.css",
+      "oF" : 1,
       "pg" : 0
     },
     "\/pages-dev\/luxi-mono.css" : {
@@ -202,8 +202,20 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/pages-dev\/luxi-mono-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/noto-sans-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/noto-sans-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -240,6 +252,18 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/pages-dev\/noto-sans-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/noto-serif-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/noto-serif-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
