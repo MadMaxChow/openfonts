@@ -105,6 +105,18 @@
       "oF" : 1,
       "pg" : 0
     },
+    "\/github-io\/roboto-slab.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/github-io\/roboto-slab-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
     "\/github-io\/u-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -228,6 +240,18 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/pages-dev\/roboto-condensed-min.css",
+      "oF" : 1,
+      "pg" : 0
+    },
+    "\/pages-dev\/roboto-slab.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/pages-dev\/roboto-slab-min.css",
       "oF" : 1,
       "pg" : 0
     },
