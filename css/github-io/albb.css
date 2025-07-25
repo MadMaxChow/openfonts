@@ -3,14 +3,24 @@
     font-family: "DingTalk Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("https://madmaxchow.github.io/openfonts/DingTalk-woff2/DingTalk-Sans.woff2");
+    src: url("https://madmaxchow.github.io/openfonts/v/DingTalk/DingTalk-Sans.woff2");
     font-display: swap;
 }
+
 /* DingTalk JinBuTi - github.io*/
 @font-face {
     font-family: "DingTalk JinBuTi";
     font-style: normal;
     font-weight: 400;
-    src: url("https://madmaxchow.github.io/openfonts/DingTalk-woff2/DingTalk-JinBuTi.woff2");
+    src: url("https://madmaxchow.github.io/openfonts/v/DingTalk/DingTalk-JinBuTi.woff2");
+    font-display: swap;
+}
+
+/* SmileySans - github.io*/
+@font-face {
+    font-family: "Smiley Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://madmaxchow.github.io/openfonts/v/SmileySans/SmileySans-Oblique.woff2");
     font-display: swap;
 }

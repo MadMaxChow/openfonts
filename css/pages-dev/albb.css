@@ -3,14 +3,24 @@
     font-family: "DingTalk Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("https://openfonts.pages.dev/DingTalk-woff2/DingTalk-Sans.woff2");
+    src: url("https://openfonts.pages.dev/v/DingTalk/DingTalk-Sans.woff2");
     font-display: swap;
 }
+
 /* DingTalk JinBuTi - pages.dev */
 @font-face {
     font-family: "DingTalk JinBuTi";
     font-style: normal;
     font-weight: 400;
-    src: url("https://openfonts.pages.dev/DingTalk-woff2/DingTalk-JinBuTi.woff2");
+    src: url("https://openfonts.pages.dev/v/DingTalk/DingTalk-JinBuTi.woff2");
+    font-display: swap;
+}
+
+/* SmileySans - github.io*/
+@font-face {
+    font-family: "Smiley Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique.woff2");
     font-display: swap;
 }

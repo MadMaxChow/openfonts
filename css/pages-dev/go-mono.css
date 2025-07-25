@@ -4,7 +4,7 @@
     font-family: "Luxi Mono";
     font-style: normal;
     font-weight: 400;
-    src: url("https://openfonts.pages.dev/GoMono-woff2/GoMono-Regular.woff2");
+    src: url("https://openfonts.pages.dev/v/GoMono/GoMono-Regular.woff2");
     font-display: swap;
 }
 /* italic */
@@ -12,7 +12,7 @@
     font-family: "Luxi Mono";
     font-style: italic;
     font-weight: 400;
-    src: url("https://openfonts.pages.dev/GoMono-woff2/GoMono-Italic-Regular.woff2");
+    src: url("https://openfonts.pages.dev/v/GoMono/GoMono-Italic-Regular.woff2");
     font-display: swap;
 }
 /* bold */
@@ -20,7 +20,7 @@
     font-family: "Luxi Mono";
     font-style: normal;
     font-weight: 700;
-    src: url("https://openfonts.pages.dev/GoMono-woff2/GoMono-Bold.woff2");
+    src: url("https://openfonts.pages.dev/v/GoMono/GoMono-Bold.woff2");
     font-display: swap;
 }
 /* bold italic */
@@ -28,6 +28,6 @@
     font-family: "Luxi Mono";
     font-style: italic;
     font-weight: 700;
-    src: url("https://openfonts.pages.dev/GoMono-woff2/GoMono-Italic-Bold.woff2");
+    src: url("https://openfonts.pages.dev/v/GoMono/GoMono-Italic-Bold.woff2");
     font-display: swap;
 }
