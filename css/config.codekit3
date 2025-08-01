@@ -183,6 +183,18 @@
       "oF" : 1,
       "pg" : 0
     },
+    "\/github-io\/smileysans.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/github-io\/smileysans-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/github-io\/u-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -408,6 +420,18 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/pages-dev\/noto-serif-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/smileysans.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/pages-dev\/smileysans-min.css",
       "oF" : 0,
       "pg" : 0
     },
