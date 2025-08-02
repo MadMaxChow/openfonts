@@ -3,23 +3,88 @@
 # 提示无权限时执行
 # xattr -d com.apple.quarantine subset-fonts.sh
 
-# 用法检查
+# 用法提示
 if [ $# -lt 1 ]; then
-  echo "用法: $0 字体文件路径"
+  echo "用法: $0 字体文件路径 [--full] [--set N]"
   exit 1
 fi
 
 FONT="$1"
+shift
 
-# 基础名称处理
+MODE="subset"
+SET_INDEX=0
+
+# 参数处理
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --full)
+      MODE="full"
+      shift
+      ;;
+    --set)
+      SET_INDEX="$2"
+      shift 2
+      ;;
+    *)
+      echo "未知参数: $1"
+      exit 1
+      ;;
+  esac
+done
+
+# 提取文件名与输出目录
 BASENAME=$(basename "$FONT")
 NAME="${BASENAME%.*}"
 OUTDIR="./${NAME}"
-
 mkdir -p "$OUTDIR"
 
-# 用两个普通数组存储子集名和对应的 Unicode 范围，保持对应关系
-subsets=(
+# 全量转换
+if [ "$MODE" == "full" ]; then
+  echo "执行完整转换 $FONT -> ${NAME}.woff2"
+  pyftsubset "$FONT" \
+    --output-file="$OUTDIR/${NAME}.woff2" \
+    --flavor=woff2 \
+    --layout-features='*' \
+    --glyph-names \
+    --glyphs=* \
+    --legacy-cmap \
+    --symbol-cmap \
+    --notdef-glyph \
+    --notdef-outline \
+    --recommended-glyphs \
+    --name-IDs='*' \
+    --name-legacy \
+    --name-languages='*' \
+    --drop-tables="FFTM,DSIG,GPOS,GDEF,TSIV"
+  echo "完成，结果保存在 $OUTDIR/${NAME}.woff2"
+  exit 0
+fi
+
+# 英文类字体子集配置
+subsets_set_0=(
+'ss_01'
+'ss_02'
+'ss_03'
+'ss_04'
+'ss_05'
+'ss_06'
+'ss_07'
+'ss_08'
+)
+ranges_set_0=(
+'U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F'
+'U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116'
+'U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09'
+'U+1F00-1FFF'
+'U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF'
+'U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB'
+'U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF'
+'U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD'
+)
+
+# 中文类字体子集配置
+subsets_set_1=(
 'subset_01'
 'subset_02'
 'subset_03'
@@ -122,8 +187,7 @@ subsets=(
 'subset_100'
 'subset_101'
 )
-
-ranges=(
+ranges_set_1=(
 'U+1f1e9-1f1f5,U+1f1f7-1f1ff,U+1f21a,U+1f232,U+1f234-1f237,U+1f250-1f251,U+1f300,U+1f302-1f308,U+1f30a-1f311,U+1f315,U+1f319-1f320,U+1f324,U+1f327,U+1f32a,U+1f32c-1f32d,U+1f330-1f357,U+1f359-1f37e'
 'U+fee3,U+fef3,U+ff03-ff04,U+ff07,U+ff0a,U+ff17-ff19,U+ff1c-ff1d,U+ff20-ff3a,U+ff3c,U+ff3e-ff5b,U+ff5d,U+ff61-ff65,U+ff67-ff6a,U+ff6c,U+ff6f-ff78,U+ff7a-ff7d,U+ff80-ff84,U+ff86,U+ff89-ff8e,U+ff92,U+ff97-ff9b,U+ff9d-ff9f,U+ffe0-ffe4,U+ffe6,U+ffe9,U+ffeb,U+ffed,U+fffc,U+1f004,U+1f170-1f171,U+1f192-1f195,U+1f198-1f19a,U+1f1e6-1f1e8'
 'U+f0a7,U+f0b2,U+f0b7,U+f0c9,U+f0d8,U+f0da,U+f0dc-f0dd,U+f0e0,U+f0e6,U+f0eb,U+f0fc,U+f101,U+f104-f105,U+f107,U+f10b,U+f11b,U+f14b,U+f18a,U+f193,U+f1d6-f1d7,U+f244,U+f27a,U+f296,U+f2ae,U+f471,U+f4b3,U+f610-f611,U+f880-f881,U+f8ec,U+f8f5,U+f8ff,U+f901,U+f90a,U+f92c-f92d,U+f934,U+f937,U+f941,U+f965,U+f967,U+f969,U+f96b,U+f96f,U+f974,U+f978-f979,U+f97e,U+f981,U+f98a,U+f98e,U+f997,U+f99c,U+f9b2,U+f9b5,U+f9ba,U+f9be,U+f9ca,U+f9d0-f9d1,U+f9dd,U+f9e0-f9e1,U+f9e4,U+f9f7,U+fa00-fa01,U+fa08,U+fa0a,U+fa11,U+fb01-fb02,U+fdfc,U+fe0e,U+fe30-fe31,U+fe33-fe44,U+fe49-fe52,U+fe54-fe57,U+fe59-fe66,U+fe68-fe6b,U+fe8e,U+fe92-fe93,U+feae,U+feb8,U+fecb-fecc,U+fee0'
@@ -227,12 +291,20 @@ ranges=(
 'U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD'
 )
 
+# 根据选择加载子集
+eval "subsets=(\"\${subsets_set_${SET_INDEX}[@]}\")"
+eval "ranges=(\"\${ranges_set_${SET_INDEX}[@]}\")"
+
+if [ ${#subsets[@]} -eq 0 ]; then
+  echo "未定义子集配置组 index=$SET_INDEX"
+  exit 1
+fi
+
+# 循环处理子集
 for i in "${!subsets[@]}"; do
   subset=${subsets[$i]}
   range=${ranges[$i]}
-
   echo "生成子集 $subset ($range)"
-
   pyftsubset "$FONT" \
     --output-file="$OUTDIR/${NAME}-$subset.woff2" \
     --flavor=woff2 \
@@ -249,4 +321,4 @@ for i in "${!subsets[@]}"; do
     --name-languages='*'
 done
 
-echo "完成，子集生成在目录 $OUTDIR"
+echo "完成，子集文件保存在目录 $OUTDIR"
