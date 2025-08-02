@@ -1,134 +1,656 @@
-/* SmileySans - github.io*/
-/* @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("https://madmaxchow.github.io/openfonts/v/SmileySans/SmileySans-Oblique.woff2");
-} */
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-latin.woff2) format('woff2');
-    unicode-range: U+0000-00FF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-latin-ext.woff2) format('woff2');
-    unicode-range: U+0100-02FF,U+1E00-1EFF,U+A720-A7FF,U+AB30-AB6F,U+FB00-FB4F;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-latin-ext.woff2) format("woff2");
+  unicode-range: U+0100-02FF,U+1E00-1EFF,U+A720-A7FF,U+AB30-AB6F,U+FB00-FB4F;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-punct-symbol.woff2) format('woff2');
-    unicode-range: U+2000-206F,U+2100-214F,U+2190-21FF,U+2200-22FF,U+25A0-25FF,U+2600-26FF,U+3000-303F,U+FF00-FFEF,U+F900-FAFF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-punct-symbol.woff2) format("woff2");
+  unicode-range: U+2000-206F,U+2100-214F,U+2190-21FF,U+2200-22FF,U+25A0-25FF,U+2600-26FF,U+3000-303F,U+FF00-FFEF,U+F900-FAFF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-sc-common.woff2) format('woff2');
-    unicode-range: U+4E00-62FF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-1.woff2) format("woff2");
+  unicode-range: U+4E00-4EFF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-sc-extra.woff2) format('woff2');
-    unicode-range: U+6300-77FF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-2.woff2) format("woff2");
+  unicode-range: U+4F00-4FFF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-sc-rare.woff2) format('woff2');
-    unicode-range: U+7800-8CFF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-3.woff2) format("woff2");
+  unicode-range: U+5000-50FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-sc-uncommon.woff2) format('woff2');
-    unicode-range: U+8D00-9FFF,U+3400-4DBF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-4.woff2) format("woff2");
+  unicode-range: U+5100-51FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-tc-zhuyin.woff2) format('woff2');
-    unicode-range: U+3100-312F,U+31A0-31BF,U+2F00-2FDF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-5.woff2) format("woff2");
+  unicode-range: U+5200-52FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-jp-kana.woff2) format('woff2');
-    unicode-range: U+3040-309F,U+30A0-30FF,U+31F0-31FF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-6.woff2) format("woff2");
+  unicode-range: U+5300-53FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-kr-hangul.woff2) format('woff2');
-    unicode-range: U+AC00-D7AF,U+1100-11FF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-7.woff2) format("woff2");
+  unicode-range: U+5400-54FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-cjk-extb-core.woff2) format('woff2');
-    unicode-range: U+20000-21FFF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-8.woff2) format("woff2");
+  unicode-range: U+5500-55FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-cjk-extb-mid.woff2) format('woff2');
-    unicode-range: U+22000-23FFF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-9.woff2) format("woff2");
+  unicode-range: U+5600-56FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-cjk-extb-rare.woff2) format('woff2');
-    unicode-range: U+24000-25FFF;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-10.woff2) format("woff2");
+  unicode-range: U+5700-57FF;
 }
-
 @font-face {
-    font-family: "Smiley Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://openfonts.pages.dev/v/SmileySans/SmileySans-Oblique-cjk-extb-extreme.woff2) format('woff2');
-    unicode-range: U+26000-2A6DF,U+2A700-2B73F,U+2B740-2B81F,U+2B820-2CEAF,U+2CEB0-2EBEF,U+2F800-2FA1F;
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-11.woff2) format("woff2");
+  unicode-range: U+5800-58FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-12.woff2) format("woff2");
+  unicode-range: U+5900-59FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-13.woff2) format("woff2");
+  unicode-range: U+5A00-5AFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-14.woff2) format("woff2");
+  unicode-range: U+5B00-5BFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-15.woff2) format("woff2");
+  unicode-range: U+5C00-5CFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-16.woff2) format("woff2");
+  unicode-range: U+5D00-5DFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-17.woff2) format("woff2");
+  unicode-range: U+5E00-5EFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-18.woff2) format("woff2");
+  unicode-range: U+5F00-5FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-19.woff2) format("woff2");
+  unicode-range: U+6000-60FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-20.woff2) format("woff2");
+  unicode-range: U+6100-61FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-21.woff2) format("woff2");
+  unicode-range: U+6200-62FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-22.woff2) format("woff2");
+  unicode-range: U+6300-63FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-23.woff2) format("woff2");
+  unicode-range: U+6400-64FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-24.woff2) format("woff2");
+  unicode-range: U+6500-65FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-25.woff2) format("woff2");
+  unicode-range: U+6600-66FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-cm-26.woff2) format("woff2");
+  unicode-range: U+6700-67FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare1.woff2) format("woff2");
+  unicode-range: U+7800-78FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare2.woff2) format("woff2");
+  unicode-range: U+7900-79FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare3.woff2) format("woff2");
+  unicode-range: U+7A00-7AFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare4.woff2) format("woff2");
+  unicode-range: U+7B00-7BFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare5.woff2) format("woff2");
+  unicode-range: U+7C00-7CFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare6.woff2) format("woff2");
+  unicode-range: U+7D00-7DFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare7.woff2) format("woff2");
+  unicode-range: U+7E00-7EFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare8.woff2) format("woff2");
+  unicode-range: U+7F00-7FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare9.woff2) format("woff2");
+  unicode-range: U+8000-80FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare10.woff2) format("woff2");
+  unicode-range: U+8100-81FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare11.woff2) format("woff2");
+  unicode-range: U+8200-82FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare12.woff2) format("woff2");
+  unicode-range: U+8300-83FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare13.woff2) format("woff2");
+  unicode-range: U+8400-84FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare14.woff2) format("woff2");
+  unicode-range: U+8500-85FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare15.woff2) format("woff2");
+  unicode-range: U+8600-86FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare16.woff2) format("woff2");
+  unicode-range: U+8700-87FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare17.woff2) format("woff2");
+  unicode-range: U+8800-88FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare18.woff2) format("woff2");
+  unicode-range: U+8900-89FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare19.woff2) format("woff2");
+  unicode-range: U+8A00-8AFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare20.woff2) format("woff2");
+  unicode-range: U+8B00-8BFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-rare21.woff2) format("woff2");
+  unicode-range: U+8C00-8CFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-exta1.woff2) format("woff2");
+  unicode-range: U+3400-37FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-exta2.woff2) format("woff2");
+  unicode-range: U+3800-3BFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-exta3.woff2) format("woff2");
+  unicode-range: U+3C00-3FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-exta4.woff2) format("woff2");
+  unicode-range: U+4000-43FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-exta5.woff2) format("woff2");
+  unicode-range: U+4400-47FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-exta6.woff2) format("woff2");
+  unicode-range: U+4800-4BBF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm1.woff2) format("woff2");
+  unicode-range: U+8D00-8DFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm2.woff2) format("woff2");
+  unicode-range: U+8E00-8EFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm3.woff2) format("woff2");
+  unicode-range: U+8F00-8FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm4.woff2) format("woff2");
+  unicode-range: U+9000-90FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm5.woff2) format("woff2");
+  unicode-range: U+9100-91FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm6.woff2) format("woff2");
+  unicode-range: U+9200-92FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm7.woff2) format("woff2");
+  unicode-range: U+9300-93FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm8.woff2) format("woff2");
+  unicode-range: U+9400-94FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm9.woff2) format("woff2");
+  unicode-range: U+9500-95FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm10.woff2) format("woff2");
+  unicode-range: U+9600-96FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm11.woff2) format("woff2");
+  unicode-range: U+9700-97FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm12.woff2) format("woff2");
+  unicode-range: U+9800-98FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm13.woff2) format("woff2");
+  unicode-range: U+9900-99FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm14.woff2) format("woff2");
+  unicode-range: U+9A00-9AFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm15.woff2) format("woff2");
+  unicode-range: U+9B00-9BFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm16.woff2) format("woff2");
+  unicode-range: U+9C00-9CFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm17.woff2) format("woff2");
+  unicode-range: U+9D00-9DFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm18.woff2) format("woff2");
+  unicode-range: U+9E00-9EFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-sc-ucm19.woff2) format("woff2");
+  unicode-range: U+9F00-9FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-tc-zhuyin.woff2) format("woff2");
+  unicode-range: U+3100-312F,U+31A0-31BF,U+2F00-2FDF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-jp-kana.woff2) format("woff2");
+  unicode-range: U+3040-309F,U+30A0-30FF,U+31F0-31FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-kr-hangul.woff2) format("woff2");
+  unicode-range: U+AC00-D7AF,U+1100-11FF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-cjk-extb-core.woff2) format("woff2");
+  unicode-range: U+20000-21FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-cjk-extb-mid.woff2) format("woff2");
+  unicode-range: U+22000-23FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-cjk-extb-rare.woff2) format("woff2");
+  unicode-range: U+24000-25FFF;
+}
+@font-face {
+  font-family: "Smiley Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://openfonts.pages.dev/v/SmileySans/v1/SmileySans-Oblique-cjk-extb-extreme.woff2) format("woff2");
+  unicode-range: U+26000-2A6DF,U+2A700-2B73F,U+2B740-2B81F,U+2B820-2CEAF,U+2CEB0-2EBEF,U+2F800-2FA1F;
 }

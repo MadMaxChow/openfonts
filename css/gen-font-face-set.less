@@ -1,0 +1,107 @@
+
+// 公共子集定义（子集名称、unicode-range）
+@subsets:
+~'latin', ~'U+0000-00FF',
+~'latin-ext', ~'U+0100-02FF,U+1E00-1EFF,U+A720-A7FF,U+AB30-AB6F,U+FB00-FB4F',
+~'punct-symbol', ~'U+2000-206F,U+2100-214F,U+2190-21FF,U+2200-22FF,U+25A0-25FF,U+2600-26FF,U+3000-303F,U+FF00-FFEF,U+F900-FAFF',
+~'sc-cm-1', ~'U+4E00-4EFF',
+~'sc-cm-2', ~'U+4F00-4FFF',
+~'sc-cm-3', ~'U+5000-50FF',
+~'sc-cm-4', ~'U+5100-51FF',
+~'sc-cm-5', ~'U+5200-52FF',
+~'sc-cm-6', ~'U+5300-53FF',
+~'sc-cm-7', ~'U+5400-54FF',
+~'sc-cm-8', ~'U+5500-55FF',
+~'sc-cm-9', ~'U+5600-56FF',
+~'sc-cm-10', ~'U+5700-57FF',
+~'sc-cm-11', ~'U+5800-58FF',
+~'sc-cm-12', ~'U+5900-59FF',
+~'sc-cm-13', ~'U+5A00-5AFF',
+~'sc-cm-14', ~'U+5B00-5BFF',
+~'sc-cm-15', ~'U+5C00-5CFF',
+~'sc-cm-16', ~'U+5D00-5DFF',
+~'sc-cm-17', ~'U+5E00-5EFF',
+~'sc-cm-18', ~'U+5F00-5FFF',
+~'sc-cm-19', ~'U+6000-60FF',
+~'sc-cm-20', ~'U+6100-61FF',
+~'sc-cm-21', ~'U+6200-62FF',
+~'sc-cm-22', ~'U+6300-63FF',
+~'sc-cm-23', ~'U+6400-64FF',
+~'sc-cm-24', ~'U+6500-65FF',
+~'sc-cm-25', ~'U+6600-66FF',
+~'sc-cm-26', ~'U+6700-67FF',
+~'sc-rare1', ~'U+7800-78FF',
+~'sc-rare2', ~'U+7900-79FF',
+~'sc-rare3', ~'U+7A00-7AFF',
+~'sc-rare4', ~'U+7B00-7BFF',
+~'sc-rare5', ~'U+7C00-7CFF',
+~'sc-rare6', ~'U+7D00-7DFF',
+~'sc-rare7', ~'U+7E00-7EFF',
+~'sc-rare8', ~'U+7F00-7FFF',
+~'sc-rare9', ~'U+8000-80FF',
+~'sc-rare10', ~'U+8100-81FF',
+~'sc-rare11', ~'U+8200-82FF',
+~'sc-rare12', ~'U+8300-83FF',
+~'sc-rare13', ~'U+8400-84FF',
+~'sc-rare14', ~'U+8500-85FF',
+~'sc-rare15', ~'U+8600-86FF',
+~'sc-rare16', ~'U+8700-87FF',
+~'sc-rare17', ~'U+8800-88FF',
+~'sc-rare18', ~'U+8900-89FF',
+~'sc-rare19', ~'U+8A00-8AFF',
+~'sc-rare20', ~'U+8B00-8BFF',
+~'sc-rare21', ~'U+8C00-8CFF',
+~'sc-exta1', ~'U+3400-37FF',
+~'sc-exta2', ~'U+3800-3BFF',
+~'sc-exta3', ~'U+3C00-3FFF',
+~'sc-exta4', ~'U+4000-43FF',
+~'sc-exta5', ~'U+4400-47FF',
+~'sc-exta6', ~'U+4800-4BBF',
+~'sc-ucm1', ~'U+8D00-8DFF',
+~'sc-ucm2', ~'U+8E00-8EFF',
+~'sc-ucm3', ~'U+8F00-8FFF',
+~'sc-ucm4', ~'U+9000-90FF',
+~'sc-ucm5', ~'U+9100-91FF',
+~'sc-ucm6', ~'U+9200-92FF',
+~'sc-ucm7', ~'U+9300-93FF',
+~'sc-ucm8', ~'U+9400-94FF',
+~'sc-ucm9', ~'U+9500-95FF',
+~'sc-ucm10', ~'U+9600-96FF',
+~'sc-ucm11', ~'U+9700-97FF',
+~'sc-ucm12', ~'U+9800-98FF',
+~'sc-ucm13', ~'U+9900-99FF',
+~'sc-ucm14', ~'U+9A00-9AFF',
+~'sc-ucm15', ~'U+9B00-9BFF',
+~'sc-ucm16', ~'U+9C00-9CFF',
+~'sc-ucm17', ~'U+9D00-9DFF',
+~'sc-ucm18', ~'U+9E00-9EFF',
+~'sc-ucm19', ~'U+9F00-9FFF',
+~'tc-zhuyin', ~'U+3100-312F,U+31A0-31BF,U+2F00-2FDF',
+~'jp-kana', ~'U+3040-309F,U+30A0-30FF,U+31F0-31FF',
+~'kr-hangul', ~'U+AC00-D7AF,U+1100-11FF',
+~'cjk-extb-core', ~'U+20000-21FFF',
+~'cjk-extb-mid', ~'U+22000-23FFF',
+~'cjk-extb-rare', ~'U+24000-25FFF',
+~'cjk-extb-extreme', ~'U+26000-2A6DF,U+2A700-2B73F,U+2B740-2B81F,U+2B820-2CEAF,U+2CEB0-2EBEF,U+2F800-2FA1F';
+
+// 递归函数：每次取两个参数（subset name 和 unicode range）
+.generateFontFaceSet(@family, @style, @weight, @srcPrefix, @subset, @range, @rest...) {
+    @font-face {
+        font-family: @family;
+        font-style: @style;
+        font-weight: @weight;
+        font-display: swap;
+        src: url(~"@{srcPrefix}@{subset}.woff2") format("woff2");
+        unicode-range: @range;
+    }
+
+  // 如果还有剩余参数就继续递归
+  .generateFontFaceSet(@family, @style, @weight, @srcPrefix, @rest...);
+}
+
+// 停止递归（无参数时）
+.generateFontFaceSet(@family, @style, @weight, @srcPrefix) {}
+
+.generateFontFace(@family, @style, @weight, @srcPrefix) {
+  .generateFontFaceSet(@family, @style, @weight, @srcPrefix, @subsets...);
+}
