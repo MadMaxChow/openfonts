@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# 提示没有找到 pyftsubset
+# vi ~/.zshrc
+# 添加以下内容
+# export PATH="/Users/max/Library/Python/3.9/bin:$PATH"
+# 保存后执行以下使其生效
+# source ~/.zshrc
+
 # 提示无权限时执行
 # xattr -d com.apple.quarantine subset-fonts.sh
 
