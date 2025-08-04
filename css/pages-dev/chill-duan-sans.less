@@ -1,0 +1,20 @@
+
+@import "../gen-font-face-set";
+
+// 生成字体 Glow Sans SC 的 font-face 定义
+.generateFontFaceSet(ChillDuanSans
+    "Glow Sans SC",
+    normal,
+    400,
+    ~"https://openfonts.pages.dev/v/ChillDuanSans/ChillDuanSans_CondensedRegular-",
+    @subsets_gb2312...
+);
+
+// 生成字体 ChillDuanSans 的 font-face 定义
+.generateFontFaceSet(
+    "Glow Sans SC",
+    normal,
+    700,
+    ~"https://openfonts.pages.dev/v/ChillDuanSans/ChillDuanSans_CondensedBold-",
+    @subsets_gb2312...
+);
