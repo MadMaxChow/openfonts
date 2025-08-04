@@ -27,7 +27,19 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/github-io\/chill-duan-sans.less" : {
+    "\/github-io\/chill-duan-sans-cond.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/github-io\/chill-duan-sans-cond-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/github-io\/chill-duan-sans-cond.less" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -37,7 +49,7 @@
       "ma" : 0,
       "mS" : 0,
       "oA" : 0,
-      "oAP" : "\/github-io\/chill-duan-sans.css",
+      "oAP" : "\/github-io\/chill-duan-sans-cond.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -164,18 +176,6 @@
       "rwU" : 0,
       "sI" : 0,
       "sU" : 0
-    },
-    "\/github-io\/glow-sans-sc.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/github-io\/glow-sans-sc-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/github-io\/go-mono.css" : {
       "aP" : 1,
@@ -327,7 +327,19 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/pages-dev\/chill-duan-sans.less" : {
+    "\/pages-dev\/chill-duan-sans-cond.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/pages-dev\/chill-duan-sans-cond-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/chill-duan-sans-cond.less" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -337,7 +349,7 @@
       "ma" : 0,
       "mS" : 0,
       "oA" : 0,
-      "oAP" : "\/pages-dev\/chill-duan-sans.css",
+      "oAP" : "\/pages-dev\/chill-duan-sans-cond.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
