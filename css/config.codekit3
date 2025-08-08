@@ -627,7 +627,7 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/github-io\/wanshiquanxing.css" : {
+    "\/github-io\/WanShiQuanXing.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -635,11 +635,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/github-io\/wanshiquanxing-min.css",
+      "oAP" : "\/github-io\/WanShiQuanXing-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/github-io\/wanshiquanxing.less" : {
+    "\/github-io\/WanShiQuanXing.less" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -649,7 +649,7 @@
       "ma" : 0,
       "mS" : 0,
       "oA" : 0,
-      "oAP" : "\/github-io\/wanshiquanxing.css",
+      "oAP" : "\/github-io\/WanShiQuanXing.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -687,7 +687,7 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/github-io\/ximaiti.css" : {
+    "\/github-io\/XiMaiTi.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -695,11 +695,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/github-io\/ximaiti-min.css",
+      "oAP" : "\/github-io\/XiMaiTi-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/github-io\/ximaiti.less" : {
+    "\/github-io\/XiMaiTi.less" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -709,7 +709,7 @@
       "ma" : 0,
       "mS" : 0,
       "oA" : 0,
-      "oAP" : "\/github-io\/ximaiti.css",
+      "oAP" : "\/github-io\/XiMaiTi.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1329,7 +1329,7 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/pages-dev\/wanshiquanxing.css" : {
+    "\/pages-dev\/WanShiQuanXing.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -1337,11 +1337,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/pages-dev\/wanshiquanxing-min.css",
+      "oAP" : "\/pages-dev\/WanShiQuanXing-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/pages-dev\/wanshiquanxing.less" : {
+    "\/pages-dev\/WanShiQuanXing.less" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1351,7 +1351,7 @@
       "ma" : 0,
       "mS" : 0,
       "oA" : 0,
-      "oAP" : "\/pages-dev\/wanshiquanxing.css",
+      "oAP" : "\/pages-dev\/WanShiQuanXing.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1389,7 +1389,7 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/pages-dev\/ximaiti.css" : {
+    "\/pages-dev\/XiMaiTi.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -1397,11 +1397,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/pages-dev\/ximaiti-min.css",
+      "oAP" : "\/pages-dev\/XiMaiTi-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/pages-dev\/ximaiti.less" : {
+    "\/pages-dev\/XiMaiTi.less" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1411,7 +1411,7 @@
       "ma" : 0,
       "mS" : 0,
       "oA" : 0,
-      "oAP" : "\/pages-dev\/ximaiti.css",
+      "oAP" : "\/pages-dev\/XiMaiTi.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
