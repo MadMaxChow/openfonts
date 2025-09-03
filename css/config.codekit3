@@ -1486,9 +1486,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/vlook-owl-en-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/vlook-owl-vip-en.css" : {
@@ -1498,9 +1498,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/vlook-owl-vip-en-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/vlook-owl-vip.css" : {
@@ -1510,9 +1510,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/vlook-owl-vip-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/vlook-owl.css" : {
