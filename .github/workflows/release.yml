@@ -14,9 +14,15 @@ jobs:
 
       - name: Create archive with v and s directories
         run: |
-          tar -czvf openfonts-${{ github.ref_name }}.tar.gz v s
+          tar -czvf web-font-${{ github.ref_name }}.tar.gz v s
 
-      - name: Upload archive to Release
+      - name: Create archive with install-font directory
+        run: |
+          tar -czvf install-font-${{ github.ref_name }}.tar.gz install-font
+
+      - name: Upload archives to Release
         uses: softprops/action-gh-release@v2
         with:
-          files: openfonts-${{ github.ref_name }}.tar.gz
+          files: |
+            web-font-${{ github.ref_name }}.tar.gz
+            install-font-${{ github.ref_name }}.tar.gz
