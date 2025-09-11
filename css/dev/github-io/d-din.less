@@ -1,0 +1,20 @@
+
+@import "../gen-font-face-set";
+
+// 生成字体 D-DIN 的 font-face 定义
+.generateFontFaceSet(
+    "D-DIN",
+    normal,
+    400,
+    ~"https://madmaxchow.github.io/openfonts/v/D-DIN/D-DIN-",
+    @subsets_gs_noto_sans...
+);
+
+// 生成字体 Go Mono 的 font-face 定义
+.generateFontFaceSet(
+    "D-DIN",
+    normal,
+    700,
+    ~"https://madmaxchow.github.io/openfonts/v/D-DIN/D-DIN-Bold-",
+    @subsets_gs_noto_sans...
+);
