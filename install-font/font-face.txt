@@ -42,10 +42,15 @@ Local / Family, Full-Name, PostScript Name: "Go Mono", "GoMono-Bold", "Go Mono B
 ====================
  sans-小清新
 --------------------
-WebFont / font-family: "XiMaiTi"
-Local / Family, Full-Name, PostScript Name: "ZiZhiQuXiMaiTi"
+WebFont / font-family: "KeKeTi"
+Local / Family, Full-Name, PostScript Name: "白无常可可体", "白无常可可体常规", "BWCKKT-Regular"
 - style: normal
 - weight: 400
+
+WebFont / font-family: "KeKeTi"
+Local / Family, Full-Name, PostScript Name: "白无常可可体", "BWCKKT-Bold"
+- style: normal
+- weight: 700
 
 WebFont / font-family: "Noto Sans SC"
 Local / Family, Full-Name, PostScript Name: "Noto Sans SC Regular", "NotoSansSC-Regular"
@@ -67,23 +72,18 @@ Local / Family, Full-Name, PostScript Name: "NotoSansMono-Bold", "Noto Sans Mono
 - style: normal
 - weight: 700
 
-WebFont / font-family: "ChillDuanSans Condensed"
-Local / Family, Full-Name, PostScript Name: "寒蝉端黑体", "ChillDuanSans_CompactRegular"
-- style: normal
-- weight: 400
-
-WebFont / font-family: "ChillDuanSans Condensed"
-Local / Family, Full-Name, PostScript Name: "寒蝉端黑体", "ChillDuanSans_CompactBold"
-- style: normal
-- weight: 700
-
 ====================
  serif-文艺范
 --------------------
-WebFont / font-family: "JiXiangSong"
-Local / Family, Full-Name, PostScript Name: "字体圈欣意吉祥宋", "Fontquan-XinYiJiXiangSong Regular", "Fontquan-XinYiJiXiangSong-Regular"
+WebFont / font-family: "ChillDuanSong"
+Local / Family, Full-Name, PostScript Name: "寒蝉端黑宋", "寒蝉端黑宋Regular", "ChillDuanHeiSongRegular"
 - style: normal
 - weight: 400
+
+WebFont / font-family: "ChillDuanSong"
+Local / Family, Full-Name, PostScript Name: "寒蝉端黑宋", "寒蝉端黑宋Bold", "ChillDuanHeiSongBold"
+- style: normal
+- weight: 700
 
 WebFont / font-family: "WanShiQuanXing"
 Local / Family, Full-Name, PostScript Name: "万事全兴体", "WSQuanXing-Regular"
