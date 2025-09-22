@@ -18,7 +18,7 @@ jobs:
 
       - name: Create archive with install-font directory
         run: |
-          tar -czvf install-font-${{ github.ref_name }}.tar.gz install-font
+          tar -czvf install-font-${{ github.ref_name }}.tar.gz install-font/${{ github.ref_name }}
 
       - name: Upload archives to Release
         uses: softprops/action-gh-release@v2
