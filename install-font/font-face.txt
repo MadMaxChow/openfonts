@@ -75,15 +75,25 @@ Local / Family, Full-Name, PostScript Name: "NotoSansMono-Bold", "Noto Sans Mono
 ====================
  serif-文艺范
 --------------------
-WebFont / font-family: "ChillDuanSong"
-Local / Family, Full-Name, PostScript Name: "寒蝉端黑宋", "寒蝉端黑宋Regular", "ChillDuanHeiSongRegular"
+WebFont / font-family: "Noto Serif SC"
+Local / Family, Full-Name, PostScript Name: "Noto Serif SC", "Noto Serif SC Medium"
 - style: normal
-- weight: 400
+- weight: 500
 
-WebFont / font-family: "ChillDuanSong"
-Local / Family, Full-Name, PostScript Name: "寒蝉端黑宋", "寒蝉端黑宋Bold", "ChillDuanHeiSongBold"
+WebFont / font-family: "Noto Serif SC"
+Local / Family, Full-Name, PostScript Name: "Noto Serif SC", "Noto Serif SC ExtraBold"
 - style: normal
-- weight: 700
+- weight: 800
+
+WebFont / font-family: "Noto Serif"
+Local / Family, Full-Name, PostScript Name: "Noto Serif", "Noto Serif Medium"
+- style: normal
+- weight: 500
+
+WebFont / font-family: "Noto Serif"
+Local / Family, Full-Name, PostScript Name: "Noto Serif", "Noto Serif ExtraBold"
+- style: normal
+- weight: 800
 
 WebFont / font-family: "WanShiQuanXing"
 Local / Family, Full-Name, PostScript Name: "万事全兴体", "WSQuanXing-Regular"
