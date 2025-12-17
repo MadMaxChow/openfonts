@@ -3,14 +3,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://madmaxchow.github.io/openfonts/v/ChillDuanSong/ChillDuanSongRegular-subset_01.woff2) format("woff2");
-  unicode-range: U+1f1e9-1f1f5,U+1f1f7-1f1ff,U+1f21a,U+1f232,U+1f234-1f237,U+1f250-1f251,U+1f300,U+1f302-1f308,U+1f30a-1f311,U+1f315,U+1f319-1f320,U+1f324,U+1f327,U+1f32a,U+1f32c-1f32d,U+1f330-1f357,U+1f359-1f37e;
-}
-@font-face {
-  font-family: "ChillDuanSong";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
   src: url(https://madmaxchow.github.io/openfonts/v/ChillDuanSong/ChillDuanSongRegular-subset_02.woff2) format("woff2");
   unicode-range: U+fee3,U+fef3,U+ff03-ff04,U+ff07,U+ff0a,U+ff17-ff19,U+ff1c-ff1d,U+ff20-ff3a,U+ff3c,U+ff3e-ff5b,U+ff5d,U+ff61-ff65,U+ff67-ff6a,U+ff6c,U+ff6f-ff78,U+ff7a-ff7d,U+ff80-ff84,U+ff86,U+ff89-ff8e,U+ff92,U+ff97-ff9b,U+ff9d-ff9f,U+ffe0-ffe4,U+ffe6,U+ffe9,U+ffeb,U+ffed,U+fffc,U+1f004,U+1f170-1f171,U+1f192-1f195,U+1f198-1f19a,U+1f1e6-1f1e8;
 }
@@ -805,14 +797,6 @@
   font-display: swap;
   src: url(https://madmaxchow.github.io/openfonts/v/ChillDuanSong/ChillDuanSongRegular-subset_101.woff2) format("woff2");
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
-}
-@font-face {
-  font-family: "ChillDuanSong";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://madmaxchow.github.io/openfonts/v/ChillDuanSong/ChillDuanSongBold-subset_01.woff2) format("woff2");
-  unicode-range: U+1f1e9-1f1f5,U+1f1f7-1f1ff,U+1f21a,U+1f232,U+1f234-1f237,U+1f250-1f251,U+1f300,U+1f302-1f308,U+1f30a-1f311,U+1f315,U+1f319-1f320,U+1f324,U+1f327,U+1f32a,U+1f32c-1f32d,U+1f330-1f357,U+1f359-1f37e;
 }
 @font-face {
   font-family: "ChillDuanSong";
