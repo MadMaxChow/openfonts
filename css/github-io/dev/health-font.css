@@ -547,14 +547,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://madmaxchow.github.io/openfonts/v/HealthFont/HealthFont-45R-subset_70.woff2) format("woff2");
-  unicode-range: U+2651-2655,U+2658,U+265a-265b,U+265d-265e,U+2660-266d,U+266f,U+267b,U+2688,U+2693-2696,U+2698-2699,U+269c,U+26a0-26a1,U+26a4,U+26aa-26ab,U+26bd-26be,U+26c4-26c5,U+26d4,U+26e9,U+26f0-26f1,U+26f3,U+26f5,U+26fd,U+2702,U+2704-2706,U+2708-270f,U+2712-2718,U+271a-271b,U+271d,U+271f,U+2721,U+2724-2730,U+2732-2734,U+273a,U+273d-2744,U+2747-2749,U+274c,U+274e-274f,U+2753-2757,U+275b,U+275d-275e,U+2763,U+2765-2767,U+276e-276f,U+2776-277e,U+2780-2782,U+278a-278c,U+278e,U+2794-2796,U+279c;
-}
-@font-face {
-  font-family: "阿里健康体2.0 中文";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
   src: url(https://madmaxchow.github.io/openfonts/v/HealthFont/HealthFont-45R-subset_71.woff2) format("woff2");
   unicode-range: U+2550-2551,U+2554,U+2557,U+255a-255b,U+255d,U+255f-2560,U+2562-2563,U+2565-2567,U+2569-256a,U+256c-2572,U+2579,U+2580-2595,U+25a1,U+25a3,U+25a9-25ad,U+25b0,U+25b3-25bb,U+25bd-25c2,U+25c4,U+25c8-25cb,U+25cd,U+25d0-25d1,U+25d4-25d5,U+25d8,U+25dc-25e6,U+25ea-25eb,U+25ef,U+25fe,U+2600-2604,U+2609,U+260e-260f,U+2611,U+2614-2615,U+2618,U+261a-2620,U+2622-2623,U+262a,U+262d-2630,U+2639-2640,U+2642,U+2648-2650;
 }
@@ -1341,14 +1333,6 @@
   font-display: swap;
   src: url(https://madmaxchow.github.io/openfonts/v/HealthFont/HealthFont-85B-subset_69.woff2) format("woff2");
   unicode-range: U+279f-27a2,U+27a4-27a5,U+27a8,U+27b0,U+27b2-27b3,U+27b9,U+27e8-27e9,U+27f6,U+2800,U+28ec,U+2913,U+2921-2922,U+2934-2935,U+2a2f,U+2b05-2b07,U+2b50,U+2b55,U+2bc5-2bc6,U+2e1c-2e1d,U+2ebb,U+2f00,U+2f08,U+2f24,U+2f2d,U+2f2f-2f30,U+2f3c,U+2f45,U+2f63-2f64,U+2f74,U+2f83,U+2f8f,U+2fbc,U+3003,U+3005-3007,U+3012-3013,U+301c-301e,U+3021,U+3023-3024,U+3030,U+3034-3035,U+3041,U+3043,U+3045,U+3047,U+3049,U+3056,U+3058,U+305c,U+305e,U+3062,U+306c,U+3074,U+3077,U+307a,U+307c-307d,U+3080,U+308e,U+3090-3091,U+3099-309b,U+309d-309e,U+30a5,U+30bc,U+30be,U+30c2,U+30c5,U+30cc,U+30d8,U+30e2,U+30e8,U+30ee,U+30f0-30f2,U+30f4-30f6,U+30fd-30fe,U+3105-3126,U+3128;
-}
-@font-face {
-  font-family: "阿里健康体2.0 中文";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://madmaxchow.github.io/openfonts/v/HealthFont/HealthFont-85B-subset_70.woff2) format("woff2");
-  unicode-range: U+2651-2655,U+2658,U+265a-265b,U+265d-265e,U+2660-266d,U+266f,U+267b,U+2688,U+2693-2696,U+2698-2699,U+269c,U+26a0-26a1,U+26a4,U+26aa-26ab,U+26bd-26be,U+26c4-26c5,U+26d4,U+26e9,U+26f0-26f1,U+26f3,U+26f5,U+26fd,U+2702,U+2704-2706,U+2708-270f,U+2712-2718,U+271a-271b,U+271d,U+271f,U+2721,U+2724-2730,U+2732-2734,U+273a,U+273d-2744,U+2747-2749,U+274c,U+274e-274f,U+2753-2757,U+275b,U+275d-275e,U+2763,U+2765-2767,U+276e-276f,U+2776-277e,U+2780-2782,U+278a-278c,U+278e,U+2794-2796,U+279c;
 }
 @font-face {
   font-family: "阿里健康体2.0 中文";
