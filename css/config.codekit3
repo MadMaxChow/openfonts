@@ -711,6 +711,12 @@
       "oAP" : "\/github-io\/V2025.10.3",
       "oF" : 0
     },
+    "\/github-io\/V2026.1" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/github-io\/V2026.1",
+      "oF" : 0
+    },
     "\/pages-dev\/dev\/ChillDuanSans-cond.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1393,6 +1399,12 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/pages-dev\/V2025.10.3",
+      "oF" : 0
+    },
+    "\/pages-dev\/V2026.1" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/pages-dev\/V2026.1",
       "oF" : 0
     }
   },
@@ -2963,7 +2975,7 @@
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
     "sassWarningStyle" : 1,
-    "skippedFoldersString" : "\/github-io\/v2025.10.3,\/github-io\/v2025.10.1,\/pages-dev\/v30.2,\/pages-dev\/v2025.10.1,_cache,.idea,\/github-io\/v2025.10.2,_logs,\/storage\/framework\/sessions,cache,node_modules,\/pages-dev\/v2025.10.2,\/pages-dev\/v2025.10,\/github-io\/v30.2,\/pages-dev\/v2025.10.3,log,logs,\/github-io\/v2025.10",
+    "skippedFoldersString" : "\/pages-dev\/v2025.10.2,_cache,.idea,\/github-io\/v2025.10,\/github-io\/v2025.10.1,\/pages-dev\/v2026.1,\/github-io\/v2026.1,cache,\/github-io\/v30.2,\/pages-dev\/v2025.10.1,\/github-io\/v2025.10.3,logs,log,\/storage\/framework\/sessions,\/github-io\/v2025.10.2,_logs,node_modules,\/pages-dev\/v2025.10.3,\/pages-dev\/v2025.10,\/pages-dev\/v30.2",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowArbitraryExtensions" : 0,
