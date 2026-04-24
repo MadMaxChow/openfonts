@@ -687,16 +687,16 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/github-io\/V2026.1" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/github-io\/V2026.1",
-      "oF" : 0
-    },
     "\/github-io\/V2026.3" : {
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/github-io\/V2026.3",
+      "oF" : 0
+    },
+    "\/github-io\/V2026.5" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/github-io\/V2026.5",
       "oF" : 0
     },
     "\/pages-dev\/dev\/ChillDuanSans-cond.css" : {
@@ -1359,17 +1359,83 @@
       "sI" : 0,
       "sU" : 0
     },
-    "\/pages-dev\/V2026.1" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/pages-dev\/V2026.1",
-      "oF" : 0
-    },
     "\/pages-dev\/V2026.3" : {
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/pages-dev\/V2026.3",
       "oF" : 0
+    },
+    "\/pages-dev\/V2026.5\/fs-dyn-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/V2026.5\/fs-dyn-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/V2026.5\/fs-ink-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/V2026.5\/fs-ink-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/V2026.5\/fs-sans-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/V2026.5\/fs-sans-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/V2026.5\/fs-serif-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/V2026.5\/fs-serif-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/V2026.5\/fs-yuan-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/V2026.5\/fs-yuan-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages-dev\/V2026.5\/fs-zen-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages-dev\/V2026.5\/fs-zen-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     }
   },
   "hooks" : [
@@ -1382,8 +1448,8 @@
     "creationDate" : 774968838.01585197,
     "displayValue" : "openfonts",
     "displayValueWasSetByUser" : 1,
-    "iconImageName" : "brackets-cafe",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "brackets_gray",
+    "iconImageWasSetByUser" : 1
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -2939,7 +3005,7 @@
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
     "sassWarningStyle" : 1,
-    "skippedFoldersString" : "\/github-io\/v2025.10.1,\/pages-dev\/v30.2,\/pages-dev\/v2025.10.1,\/github-io\/v2025.10.3,_cache,\/storage\/framework\/sessions,node_modules,\/github-io\/v2026.1,_logs,\/pages-dev\/v2025.10,\/pages-dev\/v2025.10.3,logs,\/github-io\/v2025.10,.idea,\/github-io\/v2026.3,\/pages-dev\/v2026.3,log,\/pages-dev\/v2026.1,\/github-io\/v2025.10.2,\/github-io\/v30.2,\/pages-dev\/v2025.10.2,cache",
+    "skippedFoldersString" : "\/pages-dev\/v2025.10.2,\/github-io\/v2025.10,cache,node_modules,\/pages-dev\/v2026.3,\/github-io\/v30.2,\/github-io\/v2025.10.3,\/github-io\/v2025.10.1,_logs,\/github-io\/v2026.5,\/pages-dev\/v2025.10.1,\/pages-dev\/v2026.1,\/github-io\/v2025.10.2,log,\/pages-dev\/v2025.10.3,_cache,\/github-io\/v2026.3,\/storage\/framework\/sessions,\/pages-dev\/v30.2,\/github-io\/v2026.1,\/pages-dev\/v2025.10,logs,.idea",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowArbitraryExtensions" : 0,
