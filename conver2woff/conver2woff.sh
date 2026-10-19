@@ -11,6 +11,7 @@
 # xattr -d com.apple.quarantine subset-fonts.sh
 
 # 用法提示
+# 示例：./conver2woff.sh WanKuTi.ttf --set 1
 if [ $# -lt 1 ]; then
   echo "用法: $0 字体文件路径 [--full] [--set N]"
   exit 1
